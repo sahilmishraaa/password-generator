@@ -130,6 +130,8 @@ function providePassword()
     }
     if(passwordLength.value > 50)
         passwordLength.value = 50;
+    if(passwordLength.value < 4)
+        passwordLength.value = 4;
     noCheckboxEl.innerHTML = "";
     passwordOne.textContent = shufflePassword(generatePassword());    
     passwordTwo.textContent = shufflePassword(generatePassword());    
