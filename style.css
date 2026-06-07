@@ -70,6 +70,7 @@ input[type="checkbox"] {
     border-radius: 6px;
     font-size: 1rem;
     cursor: pointer;
+    font-family: "Bitcount Single", system-ui, monospace;
     transition: 0.2s;
 }
 
